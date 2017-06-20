@@ -1,0 +1,54 @@
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+form {
+	border: 1px solid grey;
+	margin: 20px;
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0;
+	max-width: 850px;
+}
+
+form>input {
+	margin-right: 15px;
+}
+
+button, .btn {
+	margin-left: 15px;	
+}
+
+img {
+	width: 80px;
+}
+
+.contactsList {
+	border: 1px solid grey;
+	margin: 0 20px;
+	max-width: 850px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contactItem {
+	margin: 20px;
+	display:flex;
+}
+
+.contactItemInfo {
+	display: inline-block;
+	margin:20px;
+}
+
+h2 {
+	text-align:center;
+	margin: 0 20px;
+	max-width: 850px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
